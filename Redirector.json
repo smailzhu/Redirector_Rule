@@ -1,7 +1,23 @@
 {
     "createdBy": "Redirector v3.2.1",
-    "createdAt": "2019-03-21T11:48:23.059Z",
+    "createdAt": "2019-03-22T03:55:20.764Z",
     "redirects": [
+        {
+            "description": "pixnet",
+            "exampleUrl": "http://jay7134.pixnet.net/blog/post/224989118-%EF%BC%88%E6%88%90%E7%94%B0%E6%A9%9F%E5%A0%B4%E6%99%AF%E9%BB%9E%EF%BC%89%E6%88%90%E7%94%B0%E5%B8%82%E5%8D%8A%E6%97%A5%E9%81%8A%EF%BC%9A%E6%88%90%E7%94%B0%E5%B1%B1%E8%A1%A8%E5%8F%83",
+            "exampleResult": "http://jay7134.pixnet.net/blog/post/224989118",
+            "error": null,
+            "includePattern": "(.*pixnet\\.net\\/blog\\/post\\/\\d+)-",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "$1",
+            "patternType": "R",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
         {
             "description": "www.backpackers.com.tw",
             "exampleUrl": "https://www.backpackers.com.tw/forum/redirector.php?url=http%3A%2F%2Fwww.fujikyu-railway.jp%2Ffujisan-view-express%2Ftimetable%2F",
